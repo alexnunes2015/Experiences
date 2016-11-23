@@ -1,0 +1,62 @@
+#loginWindow{
+	display:none;
+	padding:12px;
+	border-left: 6px solid blue;	
+    width:19%;
+    height:10%;
+    background-color:#ccddff;
+    position:fixed;
+    margin-left:-150px; /* half of width */
+    margin-top:-150px;  /* half of height */
+    top:50%;
+    left:50%;
+    box-shadow: 2px 2px 2px #002b80;
+    border-radius:4px;   
+}
+
+#up_bar{
+	background-color:#ccddff;
+	width:100%;
+	padding:0px;
+}
+
+body{
+	background:url(../images/wallpaper.jpg) no-repeat center fixed;
+	background-size: cover;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+input[type=text] {
+    background-color: #3CBC8D;
+    color: white;
+    border: none;
+    border-bottom: 2px solid green;
+}
+
+input[type=password] {
+    background-color: #3CBC8D;
+    color: white;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=password]:focus {
+    background-color: lightblue;
+}
+
+#signupform{
+	border-radius:10px;
+	margin:26%;
+	padding-left:50px;
+	padding-top:20px;
+	padding-right:50px;
+	padding-bottom:20px;
+	background-color:white;
+	box-shadow: 2px 2px 2px #002b80;
+}
